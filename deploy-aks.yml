@@ -1,0 +1,9 @@
+---
+
+- hosts: localhost
+  vars:
+    name: akscluster
+    resource_group: aksroletest
+
+  roles: 
+    - ansible-aks
